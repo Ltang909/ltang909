@@ -77,6 +77,24 @@ LinkedIn
 <img src="Images/Linkedin.png" style="width: 100%;" />
 </a>
 </div>
+<div class="btmmenu">
+
+<div class="btmselection">
+<a href="http://www.leontang.ca">
+Home
+	</a>
+</div>
+<div class="btmselection">
+About Me
+</div>
+<div class="btmselection">
+Advertising
+</div>
+<div class="btmselection">
+	<a href="https://ltang909.github.io/websites/">
+Websites
+	</a>
+</div>
 <br/><br/>
 <span style="color: #fff;">Made By</span><br/> <span style="color: gray;">Leon Tang - Digital Marketing Specialist </span>
 <br/>
@@ -105,16 +123,32 @@ body{
 margin: 0px !important;
 }
 
+.btmselection{
+width: 100%;
+text-align:center;
+font-family: 'Dosis', sans-serif;
+}
+
+.btmselection a{
+color: #fff;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 500px){.btmmenu{
+display: block !important;
+}
+}
+
+@media only screen and (min-width: 500px){.btmmenu{
+display: none !Important;
+}
+}
+
 @media only screen and (max-width: 500px){.email{
 width: 50% !important;
 }
 }
 
-@media only screen and (max-width: 900px){.main{
-	height: 650px !important;
-	}
-	}
-	
 @media only screen and (max-width: 500px){.header h1{
 font-size: 2em !important;
 }
@@ -165,21 +199,17 @@ background: #000;
 filter: grayscale(9);
 }
 
-.selection a{
-color: #fff;
-text-decoration: none; 
-	}
-	
-.selection a:hover{
-text-decoration: underline;
-	}
-	
 .socialmedia{
 width: 6%;
 display: inline-block;
 padding-top: 3%;
 }
 
+@media only screen and (max-width: 900px){.main{
+	height: 650px !important;
+	}
+	}
+	
 .aboutme{
 width: 20%;
 }
@@ -253,6 +283,15 @@ font-weight: 800;
 text-align: center;
 }
 
+.selection a{
+color: #fff;
+text-decoration: none; 
+	}
+	
+.selection a:hover{
+text-decoration: underline;
+	}	
+	
 .header h2{
 font-family: 'Dosis', sans-serif;
 color: #fff;
